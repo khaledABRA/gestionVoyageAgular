@@ -7,10 +7,12 @@ import { AuthLayoutComponent } from './layouts/auth-layout/auth-layout.component
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { ReservationComponent } from './Reservation/reservation.component';
+import { DestinationComponent } from './Destination/destination.component';
 
 
 const routes: Routes =[
-  {path:'reservation',component:ReservationComponent}
+  {path:'reservation',component:ReservationComponent},
+  {path:'destination',component:DestinationComponent}
   ,{
     path: '',
     redirectTo: 'dashboard',

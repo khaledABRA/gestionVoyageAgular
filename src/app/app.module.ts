@@ -17,6 +17,7 @@ import { RouterModule } from '@angular/router';
 import { Voyages } from './Constructor/Voyages';
 import { DatePipe } from '@angular/common';
 import { ReservationComponent } from './Reservation/reservation.component';
+import { DestinationComponent } from './Destination/destination.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { ReservationComponent } from './Reservation/reservation.component';
     AppComponent,
     AdminLayoutComponent,
     AuthLayoutComponent,
-    ReservationComponent
+    ReservationComponent,
+    DestinationComponent
   ],
   providers: [DatePipe],
   bootstrap: [AppComponent]
